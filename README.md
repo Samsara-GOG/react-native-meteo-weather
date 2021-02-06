@@ -1,0 +1,9 @@
+# react-native-meteo-weather
+Application meteo React Native
+
+## Consignes: A l'aide de la base faite en cours de ReactJS, concevoir cette application météo.
+ - Elle affiche les 7 prochains jours en liste (pas faire le bouton next de [l'image](https://lh3.googleusercontent.com/fife/ABSRlIotfw1Z-uIgSf7EeIYI-_aVuZX6vz7jMBibOfpTSdjWPMiQQY-hF2iJ-sSGlq-WfQ2lubWKo7s2BjUaTipQbRLTppFclbruGsOOpmi1Joq8Ij4VdZsnmy-WKzwF87bYVI0J_5TccOT9-w3ilDCccuNSdUToEZBdzT029kIEHbm-LYIYA0gzf_C1qUyPjRAdhladkCkkc_oU7yexXzyGJ4yjQ6SPEOwoOV02AZfnX9p5oDEmH8VWVermNs1EpTL4K-P5rFFAMHw5G0byYGCY2FWX7gpTZXbwwgjjlT3zB6y7W9IpaL96RS5wvbFed1tJtP2BJCE-k6EgU52YfIrua4uDMBLQAW2ErW5qXprhnxvhJPOcK8IglYwwPXOV2TFFg4pm3jGQNDyvGxGw8UECKmkRTH9rn_nQPPvB0wzobjHq8lF2q9A02JlPAnw_tDReHOCQcrQ_S5CNyyg_9enfpgoz4wplFk8GeS747kZLH1zBzuB456WaYG8l3xv5otsSXgrU_tMsP8K2Br7_lILuRoEM_ANQ3654lRrGs65uQxJ2y8TSAbJEaeoEg8roTBLnM8JfFmPjA-UpB9r6FZLTgKYfa9xP_cFFsOIm86FaxTT1k37mi_tzffcl9BS6ar53zVimPVgrAxw0QEMxNC4twjvo2sk6JWR_sajLnW6QJG0MrWo25m670rJgS-6BMa8yHKmod19YhwTnvEFWlc_aT7wpTLPgUbs=w1354-h609-ft?authuser=0)) 
+
+-> OBLIGATION DE CREER D'AUTRES COMPOSANTS QUE LE App.js
+
+Bonus : Proposer un menu pour récupérer le paramètre de la ville (et ainsi obtenir également la longitude/latitude)
