@@ -23,11 +23,6 @@ import OtherDay from "./OtherDay";
 import moment from "moment";
 import "moment/locale/fr";
 
-// let latitude = 50.446;
-// let longitude = 2.901;
-
-// https://api.openweathermap.org/data/2.5/onecall?lat=50.446&lon=2.901&appid=27d368348c8c19ef439a7407b82d0808&units=metric&lang=fr&exclude=minutely,hourly,alerts
-
 const BASE_WEATHER_URL = "https://api.openweathermap.org/data/2.5/onecall?";
 
 export default function HomeScreen({ navigation, route }) {

@@ -22,8 +22,10 @@ export default function Today(props) {
         </Text>
       </View>
       <View style={(height, width, styles.right)}>
-        <Image style={(height, width, styles.stretch)} source={props.iconDay} />
-        <Text style={(height, width, styles.condition)}>{props.condition}</Text>
+        <View style={styles.centerR}>
+          <Image style={(height, width, styles.stretch)} source={props.iconDay} />
+          <Text style={(height, width, styles.condition)}>{props.condition}</Text>
+        </View>
       </View>
     </View>
   );
@@ -32,7 +34,7 @@ export default function Today(props) {
 const styles = StyleSheet.create({
   header: {
     flex: 1,
-    justifyContent: "space-evenly",
+    justifyContent: "space-between",
     flexDirection: "row",
     alignContent: "center",
     alignItems: "center",
@@ -55,23 +57,21 @@ const styles = StyleSheet.create({
     color: "white",
   },
   left: {
-    // flex: 9,
-    paddingLeft: 65,
+    paddingLeft: 20,
   },
   right: {
-    // flex: 7,
-    paddingRight: 56,
+    paddingRight: 20,
     paddingBottom: 10,
   },
+  centerR: {
+    alignItems: 'center',
+  },
   condition: {
-    marginTop: -32,
-    marginLeft: 27,
     textTransform: "capitalize",
     color: "white",
-    fontSize: 15,
+    fontSize: 16,
   },
   stretch: {
-    // marginTop: -40,
     width: 130,
     height: 130,
     resizeMode: "stretch",
